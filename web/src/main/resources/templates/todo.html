@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+  <div th:replace="layout/common :: head(~{})"></div>
+
+  <body>
+    <div th:replace="~{layout/common :: navbar}"></div>
+  
+    <main role="main" class="container">
+      <h2>Ideas for website:</h2>
+      <h3>Main Ideas:</h3>
+      <ul>
+        <li>Professional Site</li>
+          <ul>
+            <li>About Me</li>
+            <li>Contact</li>
+          </ul>
+        <li>Finance Tools</li>
+          <ul>
+            <li>Budget Report</li>
+          </ul>
+        <li>Personal Site</li>
+          <ul>
+            <li>Pictures</li>
+              <ul>
+                <li>Upload</li>
+                <li>View</li>
+                <li>Browser</li>
+              </ul>
+            <li>Documents</li>
+            <li>Social Media Aggregator</li>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Linked-in</li>
+              </ul>
+            <li>Web Site Stats/Monitoring</li>
+              <ul>
+                <li></li>
+              </ul>
+          </ul>
+      </ul>
+      <h3>Architectural Components:</h3>
+      <ul>
+        <li>Security</li>
+          <ul>
+            <li>Users</li>
+              <ul>
+                <li>Login</li>
+                <li>Register</li>
+                <li>User Management</li>
+                <li>Roles</li>
+                <li>Permissions</li>
+              </ul>
+              <li>Dark Arts</li>
+          </ul>
+        <li>Database Access</li>
+          <ul>
+            <li></li>
+          </ul>
+        <li>Reporting</li>
+          <ul>
+            <li></li>
+          </ul>
+        <li>Document Management</li>
+          <ul>
+            <li></li>
+          </ul>
+      </ul>
+    </main>
+    
+    <div th:replace="layout/common :: scripts(~{})"></div>    
+  </body>
+</html>
